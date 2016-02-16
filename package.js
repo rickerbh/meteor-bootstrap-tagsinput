@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-    api.use('jquery@1.0.1', 'client');
     api.add_files('lib/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js', 'client');
+    api.use('jquery@1.11.4', 'client');
     api.add_files('lib/bootstrap-tagsinput/dist/bootstrap-tagsinput.css', 'client');
 });
